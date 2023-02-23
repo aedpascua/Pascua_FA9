@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+  <style>
+    #image1  {
+      position: absolute;
+      top: 200px;
+    }
+  </style>
+</head>
+
+<img id="image1" src="images/dachshund sprite (2).jpg" >
+
+<button type="button" onclick="hi()">tayo ka dog</button> <br>
+
+<br><button type="button" onclick="bye()"> stay dog</button>
+
+<script>
+	
+  function hi() {
+    document.getElementById('image1').src = "images/dachshund sprite (3).jpg";
+  }
+
+  function bye() {
+    document.getElementById('image1').src = "images/dachshund sprite (2).jpg";
+  }
+
+</script>
+</body>
+</html>
